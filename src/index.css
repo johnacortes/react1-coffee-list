@@ -1,0 +1,278 @@
+body {
+  display: flex;
+  height: 130vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #111315;
+}
+
+#root {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  width: 85%;
+  height: 75%;
+}
+
+#container-img {
+  width: 100%;
+  height: 300px;
+  background-image: url("./images/bg-cafe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container-app {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #1b1d1f;
+  border-radius: 10px;
+}
+
+.svg-vector {
+  z-index: 1;
+  position: absolute;
+  top: 1%;
+  left: 60%;
+  transform: translate(-50%);
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 100;
+  width: 100%;
+  height: 150px;
+}
+
+.h1-header {
+  font-size: 2rem;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #fef7ee;
+  font-family: "DM Sans", sans-serif;
+}
+
+.p-header {
+  font-size: 1rem;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  color: #6f757c;
+}
+
+.container-buttons-components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  width: 85%;
+  height: 65%;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.all-products {
+  width: 100px;
+  height: 30px;
+  margin-right: 15px;
+  border: 0;
+  border-radius: 7px;
+  background-color: #6f757c;
+  font-family: "DM Sans", sans-serif;
+  color: #fef7ee;
+}
+
+.available-now {
+  width: 100px;
+  height: 30px;
+  border: 0;
+  border-radius: 7px;
+  background-color: #1b1d1f;
+  font-family: "DM Sans", sans-serif;
+  color: #fef7ee;
+}
+
+.component-coffee {
+  width: 275px;
+  height: 250px;
+  position: relative;
+}
+
+.container-components-coffee {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.img-coffee {
+  width: 275px;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.popular {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 25px;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  background-color: #f6c768;
+  left: 6%;
+  top: 5%;
+  transform: translate(-6);
+  border-radius: 10px;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  width: 275px;
+  height: 40px;
+}
+
+.container-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  width: 275px;
+  height: 40px;
+}
+
+.container-img {
+  margin: 0;
+}
+
+.coffee-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  color: #fef7ee;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  width: 50px;
+  height: 24px;
+  background-color: #bee3cc;
+  border-radius: 5px;
+  color: #111315;
+}
+
+.svg-rating {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.rating-votes {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.rating {
+  color: #fef7ee;
+}
+
+.votes {
+  color: #6f757c;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.soldOut {
+  color: #ed735d;
+}
+
+.available-now:hover {
+  opacity: 50%;
+}
+
+.all-products:hover {
+  opacity: 50%;
+}
+
+.rating-false {
+  color: #6f757c;
+}
+
+@media screen and (max-width: 1264px) {
+  body {
+    height: 185vh;
+  }
+
+  #root {
+    height: 85;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    height: 265vh;
+  }
+
+  #root {
+    height: 90%;
+    width: 70%;
+  }
+
+  .container-buttons-components {
+    height: 80%;
+  }
+
+  .container-components-coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+}
