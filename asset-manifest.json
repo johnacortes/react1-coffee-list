@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react1-coffee-list/static/css/main.8fe0761c.css",
+    "main.js": "/react1-coffee-list/static/js/main.80d4e446.js",
+    "static/media/bg-cafe.jpg": "/react1-coffee-list/static/media/bg-cafe.ed22aff1614ae837ee21.jpg",
+    "index.html": "/react1-coffee-list/index.html",
+    "main.8fe0761c.css.map": "/react1-coffee-list/static/css/main.8fe0761c.css.map",
+    "main.80d4e446.js.map": "/react1-coffee-list/static/js/main.80d4e446.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fe0761c.css",
+    "static/js/main.80d4e446.js"
+  ]
+}
