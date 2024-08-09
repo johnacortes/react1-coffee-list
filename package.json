@@ -2,7 +2,7 @@
   "name": "johnacortes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<tu-usuario>.github.io/react1-coffee-list",
+  "homepage": "https://johnacortes.github.io/react1-coffee-list/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -30,6 +30,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
+      "last 2 versions",
       "not dead",
       "not op_mini all"
     ],
